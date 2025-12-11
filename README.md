@@ -1,26 +1,32 @@
-# Lyapunov-Based Stability Verification of a Buck Converter (ECE 584 Final Project)
+Lyapunov-Based Stability Verification of a Buck Converter (ECE 584 Final Project)
+====================================================================================
 
-## 1. Requirements
-
-- Python ≥ 3.8
+1. Requirements
+----------------
+- Python >= 3.8
 - PyTorch (CPU or GPU build)
 - auto_LiRPA library
 - NumPy
 - Matplotlib
 
-## 2. Setup
+2. Setup
+--------
+Before running the script, make sure the following are installed in the same Python environment.
 
-Before running the script, make sure the following are installed in the same Python environment:
+Install PyTorch:
+    pip install torch torchvision torchaudio
 
-- A compatible version of Python (3.8 or later)
-- PyTorch (from the official PyTorch website or your package manager)
-- auto_LiRPA (from the official GitHub repository or PyPI)
-- NumPy
-- Matplotlib
+Install auto_LiRPA:
+    pip install auto-LiRPA
 
-## 3. How to Run
+Install NumPy:
+    pip install numpy
 
+Install Matplotlib:
+    pip install matplotlib
+
+3. How to Run
+-------------
 From the repository root, run:
 
-```bash
-python buck_verification.py
+    python buck_verification.py
